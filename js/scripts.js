@@ -3,10 +3,12 @@ $(document).ready(function() {
     var firstnameInput = $("input#firstname").val();
     var addressInput = $("input#address").val();
     var favoritefoodInput = $("input#favoritefood").val();
+    var favoritedrinkInput = $("input#favoritedrink").val();
 
     $(".firstname").text(firstnameInput);
     $(".address").text(addressInput);
     $(".favoritefood").text(favoritefoodInput);
+    $(".favoritedrink").text(favoritedrinkInput);
 
 
     $("#story").show();
